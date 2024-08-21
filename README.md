@@ -1,22 +1,47 @@
-React Ecommerce Project
-Este es un proyecto de ecommerce desarrollado con React, Vite y Firebase Firestore. El proyecto permite a los usuarios ver una lista de productos, filtrarlos por categoría y ver los detalles de cada producto.
+# React Ecommerce Project
 
-Características
-Listado de productos.
-Filtrado de productos por categoría.
-Detalles de cada producto.
-Gestión de autenticación de usuarios con Firebase.
-Despliegue en Netlify.
-Estructura del Proyecto
-La estructura del proyecto es la siguiente:
+Este proyecto es una aplicación de ecommerce desarrollada con React, Vite y Firebase Firestore. Permite a los usuarios explorar productos, filtrarlos por categoría y ver los detalles de cada producto. Además, incluye gestión de autenticación de usuarios con Firebase y se despliega en Netlify.
 
-project-root/ │ ├── public/ │ ├── assets/ │ │ ├── img-products/ │ │ │ ├── eset-nod32-antivirus.png │ │ │ ├── ... │ ├── src/ │ ├── components/ │ │ ├── ItemList.jsx │ │ ├── ItemListContainer.jsx │ │ ├── ... │ ├── firebase/ │ │ ├── config.js │ ├── App.jsx │ ├── index.jsx │ ├── ... ├── .gitignore ├── package.json ├── vite.config.js ├── README.md └── ...
+## Características
 
-Instalación
+- **Listado de productos**: Visualiza una lista de todos los productos disponibles.
+- **Filtrado de productos por categoría**: Filtra productos según su categoría para una búsqueda más precisa.
+- **Detalles de cada producto**: Accede a la información detallada de cada producto.
+- **Gestión de autenticación de usuarios**: Registro e inicio de sesión de usuarios utilizando Firebase.
+- **Despliegue en Netlify**: Accede a la versión en vivo del proyecto en Netlify.
+
+## Estructura del Proyecto
+project-root/
+│
+├── public/
+│
+├── assets/
+│ ├── img-products/
+│ │ ├── eset-nod32-antivirus.png
+│ │ ├── ...
+│
+├── src/
+│ ├── components/
+│ │ ├── ItemList.jsx
+│ │ ├── ItemListContainer.jsx
+│ │ ├── ...
+│ ├── firebase/
+│ │ ├── config.js
+│ ├── App.jsx
+│ ├── index.jsx
+│ ├── ...
+│
+├── .gitignore
+├── package.json
+├── vite.config.js
+├── README.md
+└── ...
+## Instalación
+
 Sigue estos pasos para ejecutar el proyecto localmente:
 
-Clona el repositorio:
-git clone https://github.com/tu-usuario/react-ecommerce.git
-cd react-ecommerce
-npm install
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/react-ecommerce.git
+
 
