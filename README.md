@@ -44,4 +44,6 @@ Sigue estos pasos para ejecutar el proyecto localmente:
    ```bash
    git clone https://github.com/tu-usuario/react-ecommerce.git
 
+    cd react-ecommerce
+    npm install
 
