@@ -1,0 +1,19 @@
+/* abstracts */
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+/* reset */
+@import './reset/reset';
+
+/* components jsx */
+@import './components/Header/header';
+@import './components/Header/navbar';
+
+@import './components/Products/itemList';
+@import './components/Products/itemDetail';
+
+@import './components/Checkout/checkout';
+
+@import './components/Nosotros/nosotros';
+
+@import './components/Contacto/contacto';
